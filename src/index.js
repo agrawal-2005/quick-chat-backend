@@ -21,7 +21,7 @@ module.exports = {
     
     let io = new Server (strapi.server.httpServer, {
       cors: {
-        origin: "http://localhost:5173",
+        origin: "https://quick-chat-frontend-a8cz.vercel.app",
         methods: ["POST", "GET"],
         allowedHeaders: ["my-custom-header"],
         credentials: true
